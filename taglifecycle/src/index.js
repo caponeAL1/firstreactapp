@@ -3,17 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Name from './MyComonents/Name';
-import UserDetails from './MyComonents/UserDetails/UserDetails';
-import Project from './Project/Project';
+import UserDetails from './MyComponents/UserDetails';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Name />
-    <App />
+    
     <UserDetails/>
-    <Project/>
   </React.StrictMode>
 );
 

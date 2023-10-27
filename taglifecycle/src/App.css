@@ -6,10 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-b{
-  color: darkorange;
-  font-size: 28;
-}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
